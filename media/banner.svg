@@ -14,17 +14,19 @@
     <text x="400" y="75" text-anchor="middle" font-family="system-ui,sans-serif" font-size="36" fill="#fff" font-weight="700" letter-spacing="1">awesome-castilla-y-leon</text>
     <rect x="280" y="86" width="240" height="2" rx="1" fill="#8B008B" opacity="0.5"/>
     <text x="400" y="116" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="rgba(255,255,255,0.5)" font-weight="300" letter-spacing="3">SOFTWARE OPEN SOURCE PARA CASTILLA Y LEON</text>
-    <!-- 9 castles: stylized castle shapes for 9 provinces, 5 top + 4 bottom -->
+    <!-- 5 castles with crenellations (top row) + 4 lions (bottom row) -->
     <g fill="#F1BF00" opacity="0.5" transform="translate(400,155)">
-      <g transform="translate(-72,0)"><path d="M-6,4h12v3h-12z M-6,4l3-6 3,4 3-4 3,6z"/></g>
-      <g transform="translate(-36,0)"><path d="M-6,4h12v3h-12z M-6,4l3-6 3,4 3-4 3,6z"/></g>
-      <g transform="translate(0,0)"><path d="M-6,4h12v3h-12z M-6,4l3-6 3,4 3-4 3,6z"/></g>
-      <g transform="translate(36,0)"><path d="M-6,4h12v3h-12z M-6,4l3-6 3,4 3-4 3,6z"/></g>
-      <g transform="translate(72,0)"><path d="M-6,4h12v3h-12z M-6,4l3-6 3,4 3-4 3,6z"/></g>
-      <g transform="translate(-54,18)"><path d="M-6,4h12v3h-12z M-6,4l3-6 3,4 3-4 3,6z"/></g>
-      <g transform="translate(-18,18)"><path d="M-6,4h12v3h-12z M-6,4l3-6 3,4 3-4 3,6z"/></g>
-      <g transform="translate(18,18)"><path d="M-6,4h12v3h-12z M-6,4l3-6 3,4 3-4 3,6z"/></g>
-      <g transform="translate(54,18)"><path d="M-6,4h12v3h-12z M-6,4l3-6 3,4 3-4 3,6z"/></g>
+      <!-- Castles: body + 3 merlons -->
+      <g transform="translate(-72,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
+      <g transform="translate(-36,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
+      <g transform="translate(0,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
+      <g transform="translate(36,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
+      <g transform="translate(72,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
+      <!-- Lions: body + head + tail -->
+      <g transform="translate(-54,18)"><ellipse cx="0" cy="2" rx="5" ry="3"/><circle cx="5" cy="-1" r="2"/><path d="M-5,2 Q-8,-2 -6,-5" fill="none" stroke="#F1BF00" stroke-width="1.5"/></g>
+      <g transform="translate(-18,18)"><ellipse cx="0" cy="2" rx="5" ry="3"/><circle cx="5" cy="-1" r="2"/><path d="M-5,2 Q-8,-2 -6,-5" fill="none" stroke="#F1BF00" stroke-width="1.5"/></g>
+      <g transform="translate(18,18)"><ellipse cx="0" cy="2" rx="5" ry="3"/><circle cx="5" cy="-1" r="2"/><path d="M-5,2 Q-8,-2 -6,-5" fill="none" stroke="#F1BF00" stroke-width="1.5"/></g>
+      <g transform="translate(54,18)"><ellipse cx="0" cy="2" rx="5" ry="3"/><circle cx="5" cy="-1" r="2"/><path d="M-5,2 Q-8,-2 -6,-5" fill="none" stroke="#F1BF00" stroke-width="1.5"/></g>
     </g>
   </g>
 </svg>
