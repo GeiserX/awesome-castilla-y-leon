@@ -22,3 +22,4 @@ Repos que fueron retirados de la lista porque fueron archivados, deprecados o ya
 - [Rotation Forest Spark](https://github.com/mjuez/rotation-forest-spark) - Algoritmo ML genérico, no específico de CyL.
 - [sslearn](https://github.com/jlgarridol/sslearn) - Librería ML genérica, no específica de CyL.
 - [TORMES](https://github.com/nmquijada/tormes) - Pipeline genómico genérico, no específico de CyL.
+- [ValveniDB](https://github.com/aarroyoc/valveni-db) - Base de datos genérica en Prolog. El nombre referencia un pueblo de Valladolid pero el software no tiene funcionalidad específica de CyL.
