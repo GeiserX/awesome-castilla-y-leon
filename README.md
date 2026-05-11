@@ -14,7 +14,6 @@
 - [Cultura y Ocio](#cultura-y-ocio)
 - [Datos Abiertos y Estadísticas](#datos-abiertos-y-estadísticas)
 - [Makers y Hardware](#makers-y-hardware)
-- [Software y Desarrollo](#software-y-desarrollo)
 - [Transporte y Movilidad](#transporte-y-movilidad)
 - [Universidad e Investigación](#universidad-e-investigación)
 
@@ -47,10 +46,6 @@
 ## Makers y Hardware
 
 - [STEMFIE Proyectos](https://github.com/Makers-Valladolid/Stemfie-proyectos) [![Stars](https://img.shields.io/github/stars/Makers-Valladolid/Stemfie-proyectos?style=flat-square&label=%E2%AD%90)](https://github.com/Makers-Valladolid/Stemfie-proyectos/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/Makers-Valladolid/Stemfie-proyectos?style=flat-square)](https://github.com/Makers-Valladolid/Stemfie-proyectos/commits/main) [![Language](https://img.shields.io/github/languages/top/Makers-Valladolid/Stemfie-proyectos?style=flat-square)](https://github.com/Makers-Valladolid/Stemfie-proyectos) [![License](https://img.shields.io/github/license/Makers-Valladolid/Stemfie-proyectos?style=flat-square)](https://github.com/Makers-Valladolid/Stemfie-proyectos/blob/main/LICENSE) [![Valladolid](https://img.shields.io/badge/Valladolid-8B008B?style=flat-square)](https://www.valladolid.es/) - Proyectos de impresión 3D realizados con piezas STEMFIE por la comunidad Makers de Valladolid.
-
-## Software y Desarrollo
-
-- [ValveniDB](https://github.com/aarroyoc/valveni-db) [![Stars](https://img.shields.io/github/stars/aarroyoc/valveni-db?style=flat-square&label=%E2%AD%90)](https://github.com/aarroyoc/valveni-db/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/aarroyoc/valveni-db?style=flat-square)](https://github.com/aarroyoc/valveni-db/commits/main) [![Language](https://img.shields.io/github/languages/top/aarroyoc/valveni-db?style=flat-square)](https://github.com/aarroyoc/valveni-db) [![License](https://img.shields.io/github/license/aarroyoc/valveni-db?style=flat-square)](https://github.com/aarroyoc/valveni-db/blob/main/LICENSE) [![Valladolid](https://img.shields.io/badge/Valladolid-8B008B?style=flat-square)](https://www.valladolid.es/) - Base de datos escrita en Prolog, nombrada en referencia al río Valvení (antiguo nombre del Esgueva en Valladolid).
 
 ## Transporte y Movilidad
 
