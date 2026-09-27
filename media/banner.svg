@@ -1,32 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
   <defs>
-    <clipPath id="r"><rect width="800" height="200" rx="16"/></clipPath>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <clipPath id="a-clip"><rect width="800" height="200" rx="16"/></clipPath>
+    <linearGradient id="a-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0a0f"/><stop offset="100%" stop-color="#14141f"/>
     </linearGradient>
-    <filter id="b1"><feGaussianBlur stdDeviation="40"/></filter>
+    <linearGradient id="a-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e08a4a" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#e08a4a" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#f0a860" stop-opacity="0.34"/>
+    </linearGradient>
+    <linearGradient id="a-stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8977e"/>
+      <stop offset="0.4" stop-color="#7d7061"/>
+      <stop offset="1" stop-color="#3f3833"/>
+    </linearGradient>
+    <filter id="a-blur" filterUnits="userSpaceOnUse" x="-100" y="-100" width="1000" height="400"><feGaussianBlur stdDeviation="38"/></filter>
+    <mask id="a-holes" maskUnits="userSpaceOnUse" x="0" y="0" width="800" height="200">
+      <rect width="800" height="200" fill="#fff"/>
+      <path d="M-44.5,133.0 V122.0 A10.5,10.5 0 0 1 -23.5,122.0 V133.0 Z M-13.5,133.0 V122.0 A10.5,10.5 0 0 1 7.5,122.0 V133.0 Z M17.5,133.0 V122.0 A10.5,10.5 0 0 1 38.5,122.0 V133.0 Z M48.5,133.0 V122.0 A10.5,10.5 0 0 1 69.5,122.0 V133.0 Z M79.5,133.0 V122.0 A10.5,10.5 0 0 1 100.5,122.0 V133.0 Z M79.5,156.7 V148.0 A10.5,10.5 0 0 1 100.5,148.0 V156.7 Z M110.5,133.0 V122.0 A10.5,10.5 0 0 1 131.5,122.0 V133.0 Z M110.5,162.1 V148.0 A10.5,10.5 0 0 1 131.5,148.0 V162.1 Z M141.5,133.0 V122.0 A10.5,10.5 0 0 1 162.5,122.0 V133.0 Z M141.5,168.1 V148.0 A10.5,10.5 0 0 1 162.5,148.0 V168.1 Z M172.5,133.0 V122.0 A10.5,10.5 0 0 1 193.5,122.0 V133.0 Z M172.5,174.7 V148.0 A10.5,10.5 0 0 1 193.5,148.0 V174.7 Z M203.5,133.0 V122.0 A10.5,10.5 0 0 1 224.5,122.0 V133.0 Z M203.5,181.6 V148.0 A10.5,10.5 0 0 1 224.5,148.0 V181.6 Z M234.5,133.0 V122.0 A10.5,10.5 0 0 1 255.5,122.0 V133.0 Z M234.5,188.3 V148.0 A10.5,10.5 0 0 1 255.5,148.0 V188.3 Z M265.5,133.0 V122.0 A10.5,10.5 0 0 1 286.5,122.0 V133.0 Z M265.5,194.7 V148.0 A10.5,10.5 0 0 1 286.5,148.0 V194.7 Z M296.5,133.0 V122.0 A10.5,10.5 0 0 1 317.5,122.0 V133.0 Z M296.5,200.2 V148.0 A10.5,10.5 0 0 1 317.5,148.0 V200.2 Z M327.5,133.0 V122.0 A10.5,10.5 0 0 1 348.5,122.0 V133.0 Z M327.5,204.4 V148.0 A10.5,10.5 0 0 1 348.5,148.0 V204.4 Z M358.5,133.0 V122.0 A10.5,10.5 0 0 1 379.5,122.0 V133.0 Z M358.5,207.1 V148.0 A10.5,10.5 0 0 1 379.5,148.0 V207.1 Z M389.5,133.0 V122.0 A10.5,10.5 0 0 1 410.5,122.0 V133.0 Z M389.5,208.0 V148.0 A10.5,10.5 0 0 1 410.5,148.0 V208.0 Z M420.5,133.0 V122.0 A10.5,10.5 0 0 1 441.5,122.0 V133.0 Z M420.5,207.1 V148.0 A10.5,10.5 0 0 1 441.5,148.0 V207.1 Z M451.5,133.0 V122.0 A10.5,10.5 0 0 1 472.5,122.0 V133.0 Z M451.5,204.4 V148.0 A10.5,10.5 0 0 1 472.5,148.0 V204.4 Z M482.5,133.0 V122.0 A10.5,10.5 0 0 1 503.5,122.0 V133.0 Z M482.5,200.2 V148.0 A10.5,10.5 0 0 1 503.5,148.0 V200.2 Z M513.5,133.0 V122.0 A10.5,10.5 0 0 1 534.5,122.0 V133.0 Z M513.5,194.7 V148.0 A10.5,10.5 0 0 1 534.5,148.0 V194.7 Z M544.5,133.0 V122.0 A10.5,10.5 0 0 1 565.5,122.0 V133.0 Z M544.5,188.3 V148.0 A10.5,10.5 0 0 1 565.5,148.0 V188.3 Z M575.5,133.0 V122.0 A10.5,10.5 0 0 1 596.5,122.0 V133.0 Z M575.5,181.6 V148.0 A10.5,10.5 0 0 1 596.5,148.0 V181.6 Z M606.5,133.0 V122.0 A10.5,10.5 0 0 1 627.5,122.0 V133.0 Z M606.5,174.7 V148.0 A10.5,10.5 0 0 1 627.5,148.0 V174.7 Z M637.5,133.0 V122.0 A10.5,10.5 0 0 1 658.5,122.0 V133.0 Z M637.5,168.1 V148.0 A10.5,10.5 0 0 1 658.5,148.0 V168.1 Z M668.5,133.0 V122.0 A10.5,10.5 0 0 1 689.5,122.0 V133.0 Z M668.5,162.1 V148.0 A10.5,10.5 0 0 1 689.5,148.0 V162.1 Z M699.5,133.0 V122.0 A10.5,10.5 0 0 1 720.5,122.0 V133.0 Z M699.5,156.7 V148.0 A10.5,10.5 0 0 1 720.5,148.0 V156.7 Z M730.5,133.0 V122.0 A10.5,10.5 0 0 1 751.5,122.0 V133.0 Z M761.5,133.0 V122.0 A10.5,10.5 0 0 1 782.5,122.0 V133.0 Z M792.5,133.0 V122.0 A10.5,10.5 0 0 1 813.5,122.0 V133.0 Z M823.5,133.0 V122.0 A10.5,10.5 0 0 1 844.5,122.0 V133.0 Z" fill="#000"/>
+    </mask>
   </defs>
-  <g clip-path="url(#r)">
-    <rect width="800" height="200" fill="url(#bg)"/>
-    <ellipse cx="150" cy="180" rx="200" ry="120" fill="#8B008B" opacity="0.15" filter="url(#b1)"/>
-    <ellipse cx="650" cy="20" rx="200" ry="120" fill="#F1BF00" opacity="0.1" filter="url(#b1)"/>
-    <rect width="800" height="2" fill="#8B008B" opacity="0.6"/>
-    <text x="400" y="75" text-anchor="middle" font-family="system-ui,sans-serif" font-size="36" fill="#fff" font-weight="700" letter-spacing="1">awesome-castilla-y-leon</text>
-    <rect x="280" y="86" width="240" height="2" rx="1" fill="#8B008B" opacity="0.5"/>
-    <text x="400" y="116" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="rgba(255,255,255,0.5)" font-weight="300" letter-spacing="3">SOFTWARE OPEN SOURCE PARA CASTILLA Y LEON</text>
-    <!-- 5 castles with crenellations (top row) + 4 lions (bottom row) -->
-    <g fill="#F1BF00" opacity="0.5" transform="translate(400,155)">
-      <!-- Castles: body + 3 merlons -->
-      <g transform="translate(-72,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
-      <g transform="translate(-36,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
-      <g transform="translate(0,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
-      <g transform="translate(36,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
-      <g transform="translate(72,0)"><rect x="-5" y="0" width="10" height="8"/><rect x="-5" y="-4" width="2" height="4"/><rect x="-1" y="-4" width="2" height="4"/><rect x="3" y="-4" width="2" height="4"/></g>
-      <!-- Lions: body + head + tail -->
-      <g transform="translate(-54,18)"><ellipse cx="0" cy="2" rx="5" ry="3"/><circle cx="5" cy="-1" r="2"/><path d="M-5,2 Q-8,-2 -6,-5" fill="none" stroke="#F1BF00" stroke-width="1.5"/></g>
-      <g transform="translate(-18,18)"><ellipse cx="0" cy="2" rx="5" ry="3"/><circle cx="5" cy="-1" r="2"/><path d="M-5,2 Q-8,-2 -6,-5" fill="none" stroke="#F1BF00" stroke-width="1.5"/></g>
-      <g transform="translate(18,18)"><ellipse cx="0" cy="2" rx="5" ry="3"/><circle cx="5" cy="-1" r="2"/><path d="M-5,2 Q-8,-2 -6,-5" fill="none" stroke="#F1BF00" stroke-width="1.5"/></g>
-      <g transform="translate(54,18)"><ellipse cx="0" cy="2" rx="5" ry="3"/><circle cx="5" cy="-1" r="2"/><path d="M-5,2 Q-8,-2 -6,-5" fill="none" stroke="#F1BF00" stroke-width="1.5"/></g>
+  <g clip-path="url(#a-clip)">
+    <rect width="800" height="200" fill="url(#a-bg)"/>
+    <rect y="100" width="800" height="104" fill="url(#a-sky)"/>
+    <ellipse cx="400" cy="210" rx="300" ry="70" fill="#f2a55a" opacity="0.28" filter="url(#a-blur)"/>
+    <ellipse cx="120" cy="10" rx="200" ry="90" fill="#6b7fa0" opacity="0.10" filter="url(#a-blur)"/>
+    <text x="400" y="50" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="1" fill="#ffffff">awesome-castilla-y-leon</text>
+    <rect x="300" y="62" width="200" height="2" rx="1" fill="#d9a066" opacity="0.6"/>
+    <text x="400" y="86" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" letter-spacing="3" fill="#ffffff" fill-opacity="0.6">SOFTWARE OPEN SOURCE PARA CASTILLA Y LEON</text>
+    <g mask="url(#a-holes)">
+      <rect x="0" y="106" width="800" height="94" fill="url(#a-stone)" opacity="0.92"/>
+      <rect x="0" y="106" width="800" height="3" fill="#d6c6ab" opacity="0.8"/>
+      <rect x="0" y="133" width="800" height="6" fill="#a89780" opacity="0.9"/>
+      <rect x="0" y="133" width="800" height="1.2" fill="#e0d0b4" opacity="0.7"/>
+      <path d="M0,113H800 M0,116H800 M0,152H800 M0,160H800 M0,168H800 M0,176H800 M0,184H800 M0,192H800" stroke="#2a2420" stroke-width="0.6" opacity="0.35" fill="none"/>
     </g>
+    <path d="M0,200 L0,143.8 L10,144.7 L20,145.7 L30,146.7 L40,147.8 L50,149.0 L60,150.3 L70,151.7 L80,153.2 L90,154.7 L100,156.4 L110,158.1 L120,159.9 L130,161.8 L140,163.7 L150,165.7 L160,167.8 L170,169.9 L180,172.0 L190,174.2 L200,176.4 L210,178.7 L220,180.9 L230,183.1 L240,185.3 L250,187.4 L260,189.5 L270,191.5 L280,193.5 L290,195.3 L300,197.0 L310,198.6 L320,200.1 L330,201.4 L340,202.6 L350,203.6 L360,204.5 L370,205.1 L380,205.6 L390,205.9 L400,206.0 L410,205.9 L420,205.6 L430,205.1 L440,204.5 L450,203.6 L460,202.6 L470,201.4 L480,200.1 L490,198.6 L500,197.0 L510,195.3 L520,193.5 L530,191.5 L540,189.5 L550,187.4 L560,185.3 L570,183.1 L580,180.9 L590,178.7 L600,176.4 L610,174.2 L620,172.0 L630,169.9 L640,167.8 L650,165.7 L660,163.7 L670,161.8 L680,159.9 L690,158.1 L700,156.4 L710,154.7 L720,153.2 L730,151.7 L740,150.3 L750,149.0 L760,147.8 L770,146.7 L780,145.7 L790,144.7 L800,143.8 L800,200 Z" fill="#0d0c12"/>
+    <path d="M-6.0,200 V135.4 L7.0,130.4 L20.0,135.4 V200 Z M19.0,200 V140.5 L28.0,135.5 L37.0,140.5 V200 Z M36.0,200 V140.4 L53.0,136.4 L70.0,140.4 V200 Z M69.0,200 V143.9 L78.0,139.9 L87.0,143.9 V200 Z M86.0,200 V149.5 L95.0,145.5 L104.0,149.5 V200 Z M103.0,200 V153.9 L120.0,147.9 L137.0,153.9 V200 Z M136.0,200 V155.7 L145.0,151.7 L154.0,155.7 V200 Z M153.0,200 V156.6 L164.0,151.6 L175.0,156.6 V200 Z M174.0,200 V162.4 L191.0,156.4 L208.0,162.4 V200 Z M207.0,200 V174.4 L218.0,168.4 L229.0,174.4 V200 Z M228.0,200 V173.1 L239.0,169.1 L250.0,173.1 V200 Z M249.0,200 V185.1 L258.0,179.1 L267.0,185.1 V200 Z M552.0,200 V169.2 L565.0,163.2 L578.0,169.2 V200 Z M577.0,200 V166.7 L590.0,162.7 L603.0,166.7 V200 Z M602.0,200 V167.6 L613.0,161.6 L624.0,167.6 V200 Z M623.0,200 V153.6 L636.0,148.6 L649.0,153.6 V200 Z M648.0,200 V158.3 L657.0,152.3 L666.0,158.3 V200 Z M665.0,200 V151.2 L678.0,146.2 L691.0,151.2 V200 Z M690.0,200 V144.5 L699.0,139.5 L708.0,144.5 V200 Z M707.0,200 V137.6 L724.0,131.6 L741.0,137.6 V200 Z M740.0,200 V143.2 L749.0,138.2 L758.0,143.2 V200 Z M757.0,200 V141.1 L766.0,135.1 L775.0,141.1 V200 Z M774.0,200 V129.6 L791.0,124.6 L808.0,129.6 V200 Z" fill="#0b0a10"/>
+    <rect x="61.0" y="144.4" width="3" height="4" fill="#f4b86a" opacity="0.75"/><rect x="157.0" y="160.6" width="3" height="4" fill="#f4b86a" opacity="0.75"/><rect x="258.0" y="189.1" width="3" height="4" fill="#f4b86a" opacity="0.75"/><rect x="615.0" y="171.6" width="3" height="4" fill="#f4b86a" opacity="0.75"/>
   </g>
 </svg>
