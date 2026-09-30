@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="256" height="256" role="img" aria-label="Awesome Castilla y León">
+  <!-- The favicon: the same two aqueduct arches as logo.svg, on a plate in the
+       banner's darkest sky stop (#0a0a0f), with the banner's horizon glow
+       (#f2a55a, the blurred ellipse under the aqueduct) behind the lower arches.
+       Ids carry an aw- prefix. -->
+  <defs>
+    <radialGradient id="aw-icon-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f2a55a" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#f2a55a" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#f2a55a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="aw-icon-stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8977e"/>
+      <stop offset="0.4" stop-color="#7d7061"/>
+      <stop offset="1" stop-color="#3f3833"/>
+    </linearGradient>
+    <mask id="aw-icon-holes" maskUnits="userSpaceOnUse" x="368.5" y="106" width="94" height="94">
+      <rect x="368.5" y="106" width="94" height="94" fill="#fff"/>
+      <path d="M389.5,133.0 V122.0 A10.5,10.5 0 0 1 410.5,122.0 V133.0 Z M389.5,208.0 V148.0 A10.5,10.5 0 0 1 410.5,148.0 V208.0 Z M420.5,133.0 V122.0 A10.5,10.5 0 0 1 441.5,122.0 V133.0 Z M420.5,207.1 V148.0 A10.5,10.5 0 0 1 441.5,148.0 V207.1 Z" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="360" height="360" rx="72" fill="#0a0a0f"/>
+  <ellipse cx="180" cy="250" rx="170" ry="120" fill="url(#aw-icon-glow)"/>
+  <g transform="translate(-879.5 -210.15) scale(2.55)">
+    <g mask="url(#aw-icon-holes)">
+      <rect x="379.5" y="106" width="72" height="94" fill="url(#aw-icon-stone)"/>
+      <rect x="379.5" y="106" width="72" height="3" fill="#d6c6ab" opacity="0.8"/>
+      <rect x="379.5" y="133" width="72" height="6" fill="#a89780" opacity="0.9"/>
+      <rect x="379.5" y="133" width="72" height="2" fill="#e0d0b4" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

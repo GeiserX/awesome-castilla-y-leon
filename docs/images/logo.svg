@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="368.5 106 94 94" width="94" height="94" role="img" aria-label="Awesome Castilla y León">
+  <!-- Two arches of the Segovia aqueduct from docs/images/banner.svg: the
+       a-stone band between x 379.5 and 451.5 (three piers, two arches in both
+       tiers), cut by the same arch holes from the a-holes mask, with the top
+       highlight and the cornice, same coordinates and colours. Changed: the
+       stone is fully opaque (the banner draws it at 0.92 over the sky), the
+       1.2 unit highlight on the cornice is 2 units, and the 0.6 unit masonry
+       course lines are left out, because at 2 to 3 units they would stripe
+       the piers. Dropped: the sky, the horizon glow, the town and the ground.
+       Ids carry an aw- prefix. -->
+  <defs>
+    <linearGradient id="aw-logo-stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8977e"/>
+      <stop offset="0.4" stop-color="#7d7061"/>
+      <stop offset="1" stop-color="#3f3833"/>
+    </linearGradient>
+    <mask id="aw-logo-holes" maskUnits="userSpaceOnUse" x="368.5" y="106" width="94" height="94">
+      <rect x="368.5" y="106" width="94" height="94" fill="#fff"/>
+      <path d="M389.5,133.0 V122.0 A10.5,10.5 0 0 1 410.5,122.0 V133.0 Z M389.5,208.0 V148.0 A10.5,10.5 0 0 1 410.5,148.0 V208.0 Z M420.5,133.0 V122.0 A10.5,10.5 0 0 1 441.5,122.0 V133.0 Z M420.5,207.1 V148.0 A10.5,10.5 0 0 1 441.5,148.0 V207.1 Z" fill="#000"/>
+    </mask>
+  </defs>
+  <g mask="url(#aw-logo-holes)">
+    <rect x="379.5" y="106" width="72" height="94" fill="url(#aw-logo-stone)"/>
+    <rect x="379.5" y="106" width="72" height="3" fill="#d6c6ab" opacity="0.8"/>
+    <rect x="379.5" y="133" width="72" height="6" fill="#a89780" opacity="0.9"/>
+    <rect x="379.5" y="133" width="72" height="2" fill="#e0d0b4" opacity="0.7"/>
+  </g>
+</svg>
